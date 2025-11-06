@@ -9,7 +9,11 @@ add_executable(C_Projects main.c
         "Working with Larger Programs Exercises/Calculator/Operations/operations.h"
         "Working with Larger Programs Exercises/Calculator/Operations/operations.c"
         "Working with Larger Programs Exercises/Calculator/Advanced/advanced.h"
-        "Working with Larger Programs Exercises/Calculator/Advanced/advanced.c")
+        "Working with Larger Programs Exercises/Calculator/Advanced/advanced.c"
+        "Storage Classes/declaringVariables.c"
+        "Storage Classes/sum.c"
+        "Storage Classes/loop.c"
+        "Storage Classes/display.c")
 
 target_include_directories(C_Projects PRIVATE
         "Working with Larger Programs Exercises/Calculator/Advanced"
