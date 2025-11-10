@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 4.0)
+cmake_minimum_required(VERSION 3.20)
 project(C_Projects C)
 
-set(CMAKE_C_STANDARD 90)
+set(CMAKE_C_STANDARD 99)
 
 add_executable(C_Projects main.c
         "Working with Larger Programs Exercises/Geometry Exercise/geometry.h"
@@ -13,7 +13,10 @@ add_executable(C_Projects main.c
         "Storage Classes/declaringVariables.c"
         "Storage Classes/sum.c"
         "Storage Classes/loop.c"
-        "Storage Classes/display.c")
+        "Storage Classes/display.c"
+        "Advanced Data Types/Variable Length Arrays.c"
+        "Advanced Data Types/Flexible Array Members.c"
+        "Advanced Data Types/Complex number types.c")
 
 target_include_directories(C_Projects PRIVATE
         "Working with Larger Programs Exercises/Calculator/Advanced"
