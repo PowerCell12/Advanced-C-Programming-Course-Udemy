@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 3.20)
-project(C_Projects C)
+cmake_minimum_required(VERSION 4.0)
+project(Advanced_C_Programming_Course_Udemy C)
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD 90)
 
 add_executable(C_Projects main.c
         "Working with Larger Programs Exercises/Geometry Exercise/geometry.h"
@@ -23,4 +23,4 @@ target_include_directories(C_Projects PRIVATE
         "Working with Larger Programs Exercises/Calculator/Operations"
         "Working with Larger Programs Exercises/Geometry Exercise")
 
-target_link_libraries(C_Projects m)
+add_executable(Advanced_C_Programming_Course_Udemy main.c)
